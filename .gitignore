@@ -1,0 +1,76 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.sqlite3
+instance/
+*.log
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# mypy & coverage
+.mypy_cache/
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# === FastAPI/Backend-specific ===
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/**/*.py[cod]
+backend/.env
+backend/alembic.ini
+backend/migrations/
+
+# === React / Node ===
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.DS_Store
+frontend/.eslintcache
+
+# === General system files ===
+.DS_Store
+Thumbs.db
+
+# === Docker ===
+*.pid
+*.seed
+docker-compose.override.yml
+**/.dockerignore
+
+# === Nginx ===
+nginx/*.log
+nginx/cache/
+nginx/temp/
+
+# === Logs & temp ===
+*.log
+*.tmp
+*.swp
+*.bak
+*.orig
+*.old
+
+# === Secrets ===
+.env
+.env.*
+secrets/
+*.key
+*.crt

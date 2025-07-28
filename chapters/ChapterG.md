@@ -1,1 +1,1 @@
-Are all human beings equal?
+# Are all human beings equal?
