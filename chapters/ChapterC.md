@@ -1,0 +1,1 @@
+How mammoth disappeared?
